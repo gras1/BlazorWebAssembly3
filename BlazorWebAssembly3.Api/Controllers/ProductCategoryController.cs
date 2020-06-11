@@ -7,7 +7,6 @@ using Microsoft.Extensions.Logging;
 namespace BlazorWebAssembly3.Api.Controllers
 {
     [ApiController]
-    //[Route("[controller]")]
     public class ProductCategoryController : ControllerBase
     {
         private readonly ILogger<ProductCategoryController> _logger;
